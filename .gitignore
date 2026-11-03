@@ -1,3 +1,18 @@
+# Python
 __pycache__/
 *.pyc
 .pytest_cache/
+.venv/
+venv/
+
+# Secrets (the PAT lives in repo secrets, never in files)
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Claude Code local settings (personal, per-machine)
+.claude/settings.local.json
