@@ -1,0 +1,43 @@
+name: Update project list
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [scripts/**, README.md]
+
+permissions:
+  contents: write
+
+# Serialise the profile workflows. GitHub keeps one running and one pending run
+# per group, so a pending run can be replaced; every job is idempotent and the
+# next schedule catches up.
+concurrency:
+  group: profile-readme
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Run tests (guards the private-repo filter)
+        run: python3 -m pip install -q pytest && python3 -m pytest -q scripts
+
+      - name: Rewrite the PROJECTS block (public repos only)
+        run: python3 scripts/update_projects.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit if changed
+        run: |
+          git diff --quiet README.md && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update project list"
+          git pull --rebase
+          git push

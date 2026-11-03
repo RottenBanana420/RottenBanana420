@@ -1,0 +1,52 @@
+name: Update stats cards
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      # The PAT (repo + read:user) lets the cards count private activity. Only
+      # totals end up in the SVGs, never repo names. fail_on_error stops an API
+      # failure from overwriting a good card with an error card.
+      - name: Stats card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&show=reviews&theme=github_dark
+          path: profile/stats.svg
+          core_version: 2.2.1
+          fail_on_error: true
+          token: ${{ secrets.PAT }}
+
+      - name: Top languages card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=github_dark
+          path: profile/top-langs.svg
+          core_version: 2.2.1
+          fail_on_error: true
+          token: ${{ secrets.PAT }}
+
+      - name: Commit cards if changed
+        run: |
+          git add profile/*.svg
+          git diff --cached --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update stats cards"
+          git pull --rebase
+          git push
