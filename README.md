@@ -15,6 +15,10 @@ I build retrieval and data systems in Python: RAG pipelines, multi-agent setups,
 ## Projects
 
 <!-- PROJECTS:START -->
+- **[rag-pipeline-failure-forensics](https://github.com/RottenBanana420/rag-pipeline-failure-forensics)**: Production-grade RAG system with built-in observability and backward root-cause failure analysis  
+  <sub>Python · updated 2026-07-22</sub>
+- **[ML-Crop-Recommendation-System](https://github.com/RottenBanana420/ML-Crop-Recommendation-System)**: Data-driven agricultural advisor predicting optimal crops with >95% accuracy  
+  <sub>Python · updated 2025-11-28</sub>
 <!-- PROJECTS:END -->
 
 ## Recent activity
