@@ -15,6 +15,8 @@ I build retrieval and data systems in Python: RAG pipelines, multi-agent setups,
 ## Projects
 
 <!-- PROJECTS:START -->
+- **[hermes-crunch-radar](https://github.com/RottenBanana420/hermes-crunch-radar)**: Crunch Radar: a Hermes skill that tells students when to start, warns about crunch weeks, tracks grace days and learns estimate bias  
+  <sub>Python · updated 2026-11-07</sub>
 - **[rag-pipeline-failure-forensics](https://github.com/RottenBanana420/rag-pipeline-failure-forensics)**: Production-grade RAG system with built-in observability and backward root-cause failure analysis  
   <sub>Python · updated 2026-07-22</sub>
 - **[ML-Crop-Recommendation-System](https://github.com/RottenBanana420/ML-Crop-Recommendation-System)**: Data-driven agricultural advisor predicting optimal crops with >95% accuracy  
