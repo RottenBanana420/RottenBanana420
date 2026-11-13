@@ -28,6 +28,12 @@ I build retrieval and data systems in Python: RAG pipelines, multi-agent setups,
 ## Recent activity
 
 <!--START_SECTION:activity-->
+1. 💪 Opened PR [#12](https://github.com/RottenBanana420/jobright-outreach-agent/pull/12) in [RottenBanana420/jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)
+2. 🎉 Merged PR [#11](https://github.com/RottenBanana420/jobright-outreach-agent/pull/11) in [RottenBanana420/jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)
+3. 💪 Opened PR [#11](https://github.com/RottenBanana420/jobright-outreach-agent/pull/11) in [RottenBanana420/jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)
+4. 🔒 Closed issue [#4](https://github.com/RottenBanana420/jobright-outreach-agent/issues/4) in [RottenBanana420/jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)
+5. 🎉 Merged PR [#9](https://github.com/RottenBanana420/jobright-outreach-agent/pull/9) in [RottenBanana420/jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)
+6. 🔒 Closed issue [#3](https://github.com/RottenBanana420/jobright-outreach-agent/issues/3) in [RottenBanana420/jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)
 <!--END_SECTION:activity-->
 
 ## GitHub stats
