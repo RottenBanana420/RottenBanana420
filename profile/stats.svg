@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Kusai Hajuri&#39;s GitHub Stats, Rank: B-</title>
-        <desc id="descId">Total Stars Earned: 0, Total Commits  : 648, Total PRs: 78, Total PRs Reviewed: 0, Total Issues: 57, Contributed to (last year): 1</desc>
+        <desc id="descId">Total Stars Earned: 0, Total Commits  : 658, Total PRs: 84, Total PRs Reviewed: 0, Total Issues: 57, Contributed to (last year): 1</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 174.52621829143123;
+        stroke-dashoffset: 172.64081071406818;
       }
     }
   
@@ -184,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >648</text>
+      >658</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -199,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >78</text>
+      >84</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
