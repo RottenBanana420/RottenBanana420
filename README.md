@@ -16,7 +16,7 @@ I build retrieval and data systems in Python: RAG pipelines, multi-agent setups,
 
 <!-- PROJECTS:START -->
 - **[jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)**: Claude Code agent that drafts personalized follow-up emails for the jobs you applied to on Jobright, and sends only the ones you approve  
-  <sub>Python · updated 2026-11-13</sub>
+  <sub>Python · updated 2026-11-14</sub>
 - **[hermes-crunch-radar](https://github.com/RottenBanana420/hermes-crunch-radar)**: Crunch Radar: a Hermes skill that tells students when to start, warns about crunch weeks, tracks grace days and learns estimate bias  
   <sub>Python · updated 2026-11-07</sub>
 - **[rag-pipeline-failure-forensics](https://github.com/RottenBanana420/rag-pipeline-failure-forensics)**: Production-grade RAG system with built-in observability and backward root-cause failure analysis  
