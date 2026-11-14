@@ -28,12 +28,12 @@ I build retrieval and data systems in Python: RAG pipelines, multi-agent setups,
 ## Recent activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#24](https://github.com/RottenBanana420/jobright-outreach-agent/pull/24) in [RottenBanana420/jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)
-2. 💪 Opened PR [#24](https://github.com/RottenBanana420/jobright-outreach-agent/pull/24) in [RottenBanana420/jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)
-3. ℹ️ Unlabeled issue [#20](https://github.com/RottenBanana420/jobright-outreach-agent/issues/20) in [RottenBanana420/jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)
-4. ℹ️ Unlabeled issue [#19](https://github.com/RottenBanana420/jobright-outreach-agent/issues/19) in [RottenBanana420/jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)
-5. ℹ️ Labeled issue [#7](https://github.com/RottenBanana420/jobright-outreach-agent/issues/7) in [RottenBanana420/jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)
-6. 🗣 Commented on [#23](https://github.com/RottenBanana420/jobright-outreach-agent/issues/23#issuecomment-6872321312) in [RottenBanana420/jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)
+1. ℹ️ Labeled issue [#31](https://github.com/RottenBanana420/jobright-outreach-agent/issues/31) in [RottenBanana420/jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)
+2. ℹ️ Labeled issue [#31](https://github.com/RottenBanana420/jobright-outreach-agent/issues/31) in [RottenBanana420/jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)
+3. ❗ Opened issue [#31](https://github.com/RottenBanana420/jobright-outreach-agent/issues/31) in [RottenBanana420/jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)
+4. 🎉 Merged PR [#30](https://github.com/RottenBanana420/jobright-outreach-agent/pull/30) in [RottenBanana420/jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)
+5. 💪 Opened PR [#30](https://github.com/RottenBanana420/jobright-outreach-agent/pull/30) in [RottenBanana420/jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)
+6. 🎉 Merged PR [#29](https://github.com/RottenBanana420/jobright-outreach-agent/pull/29) in [RottenBanana420/jobright-outreach-agent](https://github.com/RottenBanana420/jobright-outreach-agent)
 <!--END_SECTION:activity-->
 
 ## GitHub stats
